@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "default_action": "deny",
+  "rules": [
+    {"id": "allow-admin", "action": "allow", "protocol": "tcp", "source": "0.0.0.0/0", "destination": "10.0.0.0/24", "ports": [22, 22]},
+    {"id": "deny-specific", "action": "deny", "protocol": "tcp", "source": "192.0.2.0/24", "destination": "10.0.0.10/32", "ports": [22, 22]}
+  ]
+}
