@@ -1,7 +1,5 @@
 # Firewall Rule Lens
 
-**Área do portfólio:** [Cloud/Infraestrutura](https://github.com/alefkaue#cloudinfraestrutura) · **Contexto:** Projeto pessoal
-
 [![Tests](https://github.com/alefkaue/firewall-rule-lens/actions/workflows/tests.yml/badge.svg)](https://github.com/alefkaue/firewall-rule-lens/actions/workflows/tests.yml)
 
 Revisor offline de regras em um **modelo didático de firewall com ordem e primeira correspondência**. Detecta regras integralmente encobertas por uma regra anterior, origens irrestritas para portas administrativas selecionadas e política padrão permissiva. Não aplica configurações a equipamentos.
